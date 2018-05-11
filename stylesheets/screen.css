@@ -1,0 +1,336 @@
+/* line 1, ../sass/screen.scss */
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+/* line 5, ../sass/screen.scss */
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+/* line 14, ../sass/screen.scss */
+body .nav li a {
+  font-weight: bold;
+}
+/* line 16, ../sass/screen.scss */
+body .nav li a.dropdown-item {
+  font-weight: normal;
+  opacity: .75;
+}
+/* line 23, ../sass/screen.scss */
+body .nav .nav-item .navbar-collapse {
+  position: absolute;
+  left: -8px;
+}
+/* line 30, ../sass/screen.scss */
+body .banner {
+  position: relative;
+  max-height: 500px;
+}
+/* line 34, ../sass/screen.scss */
+body .banner .mobile-search {
+  display: none;
+  width: 30%;
+  position: absolute;
+  z-index: 2;
+  top: .5em;
+  right: .5em;
+  text-align: right;
+}
+/* line 43, ../sass/screen.scss */
+body .banner .mobile-search button {
+  color: #000;
+}
+/* line 47, ../sass/screen.scss */
+body .banner .mobile-search .search-container {
+  width: 100%;
+  display: block;
+}
+/* line 52, ../sass/screen.scss */
+body .banner .mobile-search input#search-bar {
+  margin: 0 auto;
+  width: 100%;
+  height: 35px;
+  padding: 0 10px;
+  font-size: 1rem;
+  border: 1px solid #D0CFCE;
+  outline: none;
+}
+/* line 60, ../sass/screen.scss */
+body .banner .mobile-search input#search-bar:focus {
+  border: 1px solid #008ABF;
+  transition: 0.35s ease;
+  color: #008ABF;
+}
+/* line 64, ../sass/screen.scss */
+body .banner .mobile-search input#search-bar:focus::-webkit-input-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+/* line 68, ../sass/screen.scss */
+body .banner .mobile-search input#search-bar:focus::-moz-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+/* line 72, ../sass/screen.scss */
+body .banner .mobile-search input#search-bar:focus:-ms-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+/* line 79, ../sass/screen.scss */
+body .banner .mobile-search .search-icon {
+  position: relative;
+  float: right;
+  width: 75px;
+  height: 75px;
+  top: -62px;
+  right: -45px;
+}
+/* line 89, ../sass/screen.scss */
+body .banner .carousel {
+  height: 100%;
+}
+/* line 91, ../sass/screen.scss */
+body .banner .carousel .carousel-inner {
+  height: 100%;
+}
+/* line 93, ../sass/screen.scss */
+body .banner .carousel .carousel-inner .carousel-item {
+  height: 100%;
+}
+/* line 99, ../sass/screen.scss */
+body .banner .logo-nav {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 1em;
+  z-index: 1;
+}
+/* line 105, ../sass/screen.scss */
+body .banner .logo-nav .nav-link {
+  cursor: pointer;
+  color: #000 !important;
+}
+/* line 109, ../sass/screen.scss */
+body .banner .logo-nav .nav-link.collapsed::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: .3em solid;
+  border-right: .3em solid transparent;
+  border-bottom: 0;
+  border-left: .3em solid transparent;
+}
+/* line 125, ../sass/screen.scss */
+body .banner nav {
+  display: none;
+}
+/* line 130, ../sass/screen.scss */
+body .main-content {
+  padding: 1em;
+}
+/* line 134, ../sass/screen.scss */
+body .main-content .search input {
+  border: 0;
+  background-color: transparent;
+}
+/* line 138, ../sass/screen.scss */
+body .main-content .search button {
+  color: #000;
+}
+/* line 140, ../sass/screen.scss */
+body .main-content .search button:hover {
+  opacity: .5;
+}
+/* line 148, ../sass/screen.scss */
+body .featured-products h3 {
+  margin: 0 0 0.5em 0 !important;
+}
+/* line 151, ../sass/screen.scss */
+body .featured-products .mobile-view {
+  display: none;
+}
+/* line 158, ../sass/screen.scss */
+body .featured-products .laptop-view .col-sm .col button {
+  width: 100%;
+  height: 50%;
+}
+/* line 167, ../sass/screen.scss */
+body .banner-ad {
+  max-width: 100%;
+  width: 95%;
+  margin: 0 auto;
+}
+/* line 172, ../sass/screen.scss */
+body .banner-ad .col-sm {
+  height: 150px;
+}
+/* line 175, ../sass/screen.scss */
+body .banner-ad .col-sm .col button {
+  width: 50%;
+  height: 50%;
+}
+/* line 183, ../sass/screen.scss */
+body footer {
+  background: #C1BBBB;
+  min-height: 250px;
+}
+/* line 189, ../sass/screen.scss */
+body footer .nav .nav-item a {
+  cursor: pointer;
+  margin: 0 .5em 0 .5em;
+}
+
+@media (max-width: 576px) {
+  /* line 203, ../sass/screen.scss */
+  body .banner {
+    width: 100%;
+  }
+  /* line 205, ../sass/screen.scss */
+  body .banner .mobile-search {
+    display: block;
+  }
+  /* line 211, ../sass/screen.scss */
+  body .banner .logo-nav img.company-logo {
+    width: 25%;
+  }
+  /* line 215, ../sass/screen.scss */
+  body .banner .logo-nav nav {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  /* line 221, ../sass/screen.scss */
+  body .banner .logo-nav nav .nav {
+    background: #fff;
+    border: solid 1px #000;
+  }
+  /* line 224, ../sass/screen.scss */
+  body .banner .logo-nav nav .nav .navbar-collapse {
+    position: relative;
+    left: .5em;
+  }
+  /* line 228, ../sass/screen.scss */
+  body .banner .logo-nav nav .nav .navbar-collapse a:hover {
+    background: transparent;
+    text-decoration: underline;
+  }
+  /* line 236, ../sass/screen.scss */
+  body .banner .logo-nav nav button {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    cursor: pointer;
+  }
+  /* line 241, ../sass/screen.scss */
+  body .banner .logo-nav nav button i {
+    font-size: 1.5em;
+  }
+  /* line 250, ../sass/screen.scss */
+  body .logo-nav .float-left {
+    float: none !important;
+    text-align: center;
+  }
+  /* line 255, ../sass/screen.scss */
+  body .logo-nav .float-right .nav {
+    display: none;
+  }
+  /* line 262, ../sass/screen.scss */
+  body .main-content .search {
+    display: none;
+  }
+  /* line 268, ../sass/screen.scss */
+  body .featured-products .laptop-view {
+    display: none;
+  }
+  /* line 271, ../sass/screen.scss */
+  body .featured-products .mobile-view {
+    display: block !important;
+  }
+  /* line 274, ../sass/screen.scss */
+  body .featured-products .mobile-view .carousel-control-next,
+  body .featured-products .mobile-view .carousel-control-prev {
+    color: #000;
+  }
+  /* line 279, ../sass/screen.scss */
+  body .featured-products .mobile-view .carousel-indicators {
+    bottom: -50px !important;
+  }
+  /* line 281, ../sass/screen.scss */
+  body .featured-products .mobile-view .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: solid 1px #000;
+  }
+  /* line 287, ../sass/screen.scss */
+  body .featured-products .mobile-view .carousel-indicators .active {
+    background-color: #000 !important;
+  }
+  /* line 294, ../sass/screen.scss */
+  body .featured-products .col button {
+    width: 50%;
+    height: 75% !important;
+  }
+  /* line 300, ../sass/screen.scss */
+  body .featured-products .banner-ad {
+    width: 100%;
+    margin-top: 3em;
+  }
+  /* line 303, ../sass/screen.scss */
+  body .featured-products .banner-ad .col-sm {
+    margin-top: 1em;
+  }
+  /* line 309, ../sass/screen.scss */
+  body footer {
+    min-height: 200px;
+    padding: 0 !important;
+  }
+  /* line 315, ../sass/screen.scss */
+  body footer .nav .nav-item a.nav-link {
+    cursor: pointer;
+    color: #000 !important;
+  }
+  /* line 319, ../sass/screen.scss */
+  body footer .nav .nav-item a.nav-link.collapsed::before {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-right: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+  }
+  /* line 334, ../sass/screen.scss */
+  body footer .nav .nav-item .navbar-collapse {
+    position: relative;
+    left: -8px;
+    border-bottom: solid 1px #000;
+  }
+  /* line 339, ../sass/screen.scss */
+  body footer .nav .nav-item .navbar-collapse a:hover {
+    background: transparent;
+    text-decoration: underline;
+  }
+  /* line 347, ../sass/screen.scss */
+  body footer .justify-content-center {
+    -ms-flex-pack: left !important;
+    justify-content: left !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+  }
+}
+@media (max-width: 768px) {
+  /* line 363, ../sass/screen.scss */
+  body .featured-products .col button {
+    height: 100%;
+  }
+}
